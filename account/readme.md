@@ -5,4 +5,4 @@ By siging up for a ProFinance account. All of your data is protected. We do not 
 
 By signing up for a ProFinance account you are abiding by:
 * No maliuous intents
-* Fallowing TOS
+* Abiding by the rules of the TOS (terms of service)
