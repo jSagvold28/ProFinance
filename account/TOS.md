@@ -4,7 +4,8 @@ By using Finance Tracker CLI ("the Service"), you agree to be bound by the follo
 
 ## Use of the Service
 
-The Service is provided for personal and non-commercial use. You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the Service.
+The Service is provided for personal and non-commercial use. You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the Service. You must also be 18 or older to use this 
+software product.
 
 ## User Conduct
 
