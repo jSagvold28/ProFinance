@@ -1,6 +1,6 @@
 print("Email:")
 local email = io.read()
-
+ 
 print("Password:")
 local password = io.read()
 
