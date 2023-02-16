@@ -16,12 +16,15 @@ local function promptUser()
     io.write("Savings: " .. "$")
     local addedToSavings = tonumber(io.read())
 
-    return monthlyIncome, groceries, utilities, rentOrMortgage, addedToSavings
+    io.write("Other spendings " .. "$")
+    local otherSpendings = io.read()
+
+    return monthlyIncome, groceries, utilities, rentOrMortgage, addedToSavings, otherSpendings
 end
 
-local monthlyIncome, groceries, utilities, rentOrMortgage, addedToSavings = promptUser()
+local monthlyIncome, groceries, utilities, rentOrMortgage, addedToSavings, otherSpendings = promptUser()
 
-local leftToSpend = monthlyIncome - groceries - utilities - rentOrMortgage - addedToSavings
+local leftToSpend = monthlyIncome - groceries - utilities - rentOrMortgage - addedToSavings, otherSpendings
 
 print("Left to spend: " .. "$" .. leftToSpend)
 
