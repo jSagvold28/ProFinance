@@ -1,10 +1,13 @@
 local function promptUser()
+    print("")
+
     io.write("Monthly income " .. "$")
     local monthlyIncome = tonumber(io.read())
 
-    print("Total spendings")
     print("")
-    io.write("Groceries: ")
+    print("Total spendings:")
+    print("")
+    io.write("Groceries: " .. "$")
     local groceries = tonumber(io.read())
 
     io.write("Utilities: "  .. "$")
@@ -26,8 +29,9 @@ local monthlyIncome, groceries, utilities, rentOrMortgage, addedToSavings, other
 
 local leftToSpend = monthlyIncome - groceries - utilities - rentOrMortgage - addedToSavings, otherSpendings
 
-print("Left to spend: " .. "$" .. leftToSpend)
-
-if leftToSpend < 0 then
-    print("You have went below your montly income: " .. leftToSpend)
+if leftToSpend >= 1 then
+    print("Left to spend: $" .. leftToSpend)
+elseif leftToSpend < 0 then
+    print("You went over your monthly income, by $" .. -1*leftToSpend)
+    print("You could use some savings you have $" .. addedToSavings .. " from savings this month.")
 end
